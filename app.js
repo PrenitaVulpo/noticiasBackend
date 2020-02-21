@@ -1,20 +1,10 @@
-var express = require('express');
-var app = express();
+var app = require('./config/server.js');
 
-//definindo o ejs como engine de views
-app.set('view engine', 'ejs');
-
-app.get('/', function(req, res){
-    res.render("home/index")
-});
-
-app.get('/form_noticia', function(req, res){
-    res.render("admin/form_add_noticias")
-});
-
-app.get('/noticias', function(req, res){
-    res.render("noticias/noticias")
-});
+var rotaHome = require('./app/routes/index');
+rotaHome(app);
+var rotaForm = require('./app/routes/form_noticia');
+rotaForm(app);
+var rotaNoticias = require('./app/routes/noticias')(app);
 
 //faz com que o express escute a porta informada, também recebe o callback
 app.listen(process.env.PORT || 3000, function () {
