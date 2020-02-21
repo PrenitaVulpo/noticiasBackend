@@ -1,0 +1,26 @@
+{
+  "name": "noticias_backend",
+  "version": "1.0.0",
+  "description": "backend básico de site de notícias",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrenitaVulpo/noticiasBackend.git"
+  },
+  "keywords": [
+    "estudo",
+    "nodeJS"
+  ],
+  "author": "https://github.com/PrenitaVulpo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PrenitaVulpo/noticiasBackend/issues"
+  },
+  "homepage": "https://github.com/PrenitaVulpo/noticiasBackend#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
