@@ -23,6 +23,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -48,7 +49,7 @@
       <updated>1582061946414</updated>
       <workItem from="1582061955379" duration="1795000" />
       <workItem from="1582142802782" duration="1193000" />
-      <workItem from="1582238397628" duration="2193000" />
+      <workItem from="1582238397628" duration="2518000" />
     </task>
     <servers />
   </component>
