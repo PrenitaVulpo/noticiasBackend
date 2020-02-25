@@ -2,17 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bbf1908-b92a-4463-b245-219898f4b839" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/routes/form_noticia.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routes/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routes/noticias.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/noticiasModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/noticiasModel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/form_noticia.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/form_noticia.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/noticia.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/noticia.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/noticias.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/noticias.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dbconnection.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/dbconnection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/admin/form_add_noticia.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/form_add_noticia.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/noticias/noticia.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/noticias/noticia.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/noticias/noticias.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/noticias/noticias.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,8 +43,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.14.1" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -53,7 +73,10 @@
       <updated>1582061946414</updated>
       <workItem from="1582061955379" duration="1795000" />
       <workItem from="1582142802782" duration="1193000" />
-      <workItem from="1582238397628" duration="5167000" />
+      <workItem from="1582238397628" duration="7011000" />
+      <workItem from="1582310366120" duration="650000" />
+      <workItem from="1582395908910" duration="2748000" />
+      <workItem from="1582650298625" duration="12407000" />
     </task>
     <servers />
   </component>
@@ -65,5 +88,13 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="89" key="#Notifications/0.0.1600.860@0.0.1600.860" timestamp="1582247443965" />
+    <state x="301" y="73" key="SettingsEditor" timestamp="1582651791595">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="301" y="73" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1582651791595" />
+    <state x="609" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582252588419">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="609" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1582252588419" />
   </component>
 </project>

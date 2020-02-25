@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-	<html lang="pt-br">
+<html lang="pt-br" xmlns="http://www.w3.org/1999/html">
 		<head>
 			<meta charset="utf-8"/>
 			<title>Formulário de cadastro de Notícias</title>
@@ -7,6 +7,16 @@
 	<body>
 
 		<h1>Adicionar noticia</h1>
+
+	<form action="/noticias/salvar" method="post">
+		<label>Título</label>
+		<input type="text" id="titulo" name="titulo" placeholder="titulo da notícia"/>
+		<br/>
+		<label>Título</label>
+		<textarea id="noticia" name="noticia" cols-="30" rows="5"></textarea>
+		<br/>
+		<input type="submit" value="Enviar"/>
+	</form>
 
 	</body>
 </html>
