@@ -2,8 +2,10 @@ var express = require('express');
 var app = express();
 var consign = require('consign');
 var bodyParser = require('body-parser');
+const { check, validationResult } = require('express-validator');
 
 app.use(bodyParser.urlencoded({extended:true}));
+app.use(check());
 
 consign().include('/app/routes')
     .then('/config/dbconnection.js')
