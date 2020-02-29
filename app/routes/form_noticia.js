@@ -4,8 +4,19 @@ module.exports = function(app){
     app.get('/form_noticia', function(req, res){
         res.render("admin/form_add_noticia.ejs")
     });
-    app.post('/noticias/salvar', [check('titulo','O campo "título" é obrigatório.').notEmpty()], function(req, res){
+
+    var checagem = [check('titulo','O campo "título" é obrigatório.').notEmpty(),
+                    check('resumo','O campo "resumo" é obrigatório.').notEmpty(),
+                    check('resumo','O resumo deve conter entre 10 e 100 caracteres.').isLength({
+                        min: 10,
+                        max: 100,}),
+                    check('autor','O campo "autor" é obrigatório.').notEmpty(),
+                    check('data_noticia','O campo "data" é obrigatório.').notEmpty(),
+                    check('noticia','O campo "notícia" é obrigatório.').notEmpty()];
+
+    app.post('/noticias/salvar', checagem, function(req, res){
         var noticia = req.body;
+        console.log(noticia)
         /*check('titulo','O campo "título" é obrigatório.').notEmpty();
         check('resumo','O campo "resumo" é obrigatório.').notEmpty();
         check('resumo','O resumo deve conter entre 10 e 100 caracteres.').len(10, 100);
@@ -13,8 +24,6 @@ module.exports = function(app){
         check('data','O campo "data" é obrigatório.').notEmpty();
         check('data_noticia', 'Data em formato diferente de aaaa/mm/dd.').isDate({format: 'YYYY-MM-DD'});
         check('noticia','O campo "notícia" é obrigatório.').notEmpty();*/
-
-        var erros = validationResult(req);
 
         const errors = validationResult(req);
         if (!errors.isEmpty()) {
