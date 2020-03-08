@@ -7,6 +7,14 @@
 	<body>
 
 		<h1>Adicionar noticia</h1>
+		<br><%for (i = 0; i < errors.length; i++){%>
+		<ol>
+
+			<il>
+				<%= errors.msg;%>
+			</il>
+
+		</ol><%};%>
 
 	<form action="/noticias/salvar" method="post">
 		<label>Título</label>

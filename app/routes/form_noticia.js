@@ -16,18 +16,16 @@ module.exports = function(app){
 
     app.post('/noticias/salvar', checagem, function(req, res){
         var noticia = req.body;
-        console.log(noticia)
-        /*check('titulo','O campo "título" é obrigatório.').notEmpty();
-        check('resumo','O campo "resumo" é obrigatório.').notEmpty();
-        check('resumo','O resumo deve conter entre 10 e 100 caracteres.').len(10, 100);
-        check('autor','O campo "autor" é obrigatório.').notEmpty();
-        check('data','O campo "data" é obrigatório.').notEmpty();
-        check('data_noticia', 'Data em formato diferente de aaaa/mm/dd.').isDate({format: 'YYYY-MM-DD'});
-        check('noticia','O campo "notícia" é obrigatório.').notEmpty();*/
 
-        const errors = validationResult(req);
+        var errors = validationResult(req);
         if (!errors.isEmpty()) {
-            return res.status(422).json({ errors: errors.array() });
+            //app.locals.validacao = {validacao: errors};
+            console.log(errors);
+            res.render("admin/form_add_noticia", {errors: errors});
+
+            return //res.status(422).json({ errors: errors.array() })// ;
+
+
         }
 
         var connection = app.config.dbconnection;

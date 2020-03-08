@@ -4,6 +4,7 @@
     <list default="true" id="8bbf1908-b92a-4463-b245-219898f4b839" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routes/form_noticia.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/form_noticia.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/admin/form_add_noticia.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/form_add_noticia.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +67,12 @@
       <workItem from="1582650298625" duration="15782000" />
       <workItem from="1582831873793" duration="138000" />
       <workItem from="1582921694302" duration="6244000" />
-      <workItem from="1582982191572" duration="8199000" />
+      <workItem from="1582982191572" duration="10215000" />
+      <workItem from="1583109517703" duration="12000" />
+      <workItem from="1583349386239" duration="5210000" />
+      <workItem from="1583441743720" duration="1387000" />
+      <workItem from="1583529140936" duration="1195000" />
+      <workItem from="1583627667021" duration="1085000" />
     </task>
     <servers />
   </component>
